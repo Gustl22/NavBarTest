@@ -1,0 +1,20 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:key="theme"
+        app:title="Set theme"
+        app:summary="Switch between themes"
+        app:dialogTitle="Select theme"
+
+        app:entries="@array/theme_names"
+        app:entryValues="@array/theme_values"
+        />
+
+    <!--<SwitchPreferenceCompat-->
+        <!--app:key="theme"-->
+        <!--app:title="Theme"-->
+        <!--app:summary="Switch between light and dark theme"-->
+        <!--/>-->
+
+</android.support.v7.preference.PreferenceScreen>

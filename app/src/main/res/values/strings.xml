@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">NavBarTest</string>
+
+    <string-array name="theme_names">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
 </resources>

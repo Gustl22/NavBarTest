@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.V23"/>
+    <style name="AppTheme.Light" parent="AppTheme.Light.V23"/>
+    <style name="AppTheme.Dark" parent="AppTheme.Dark.V23"/>
+
+    <style name="AppTheme.V23" parent="AppTheme.V21">
+        <!-- reverse status bar color to light color -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme.Light.V23" parent="AppTheme.Light.V21">
+        <!-- reverse status bar color to light color -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.V23" parent="AppTheme.Dark.V21">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

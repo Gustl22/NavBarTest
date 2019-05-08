@@ -1,13 +1,23 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="AppTheme.V21"/>
+    <style name="AppTheme.Dark" parent="AppTheme.Dark.V21"/>
+    <style name="AppTheme.Light" parent="AppTheme.Light.V21"/>
 
-        <!--Doesn't work-->
-        <item name="android:navigationBarColor">#ff000000</item>
+    <style name="AppTheme.V21" parent="AppTheme.Base">
+        <item name="android:actionBarStyle">@style/ActionBar.Dark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryWrong</item>
+    </style>
 
-        <!--Works-->
-        <!--<item name="android:navigationBarColor">#ff000001</item>-->
+    <style name="AppTheme.Light.V21" parent="AppTheme.Light.Base">
+        <item name="android:actionBarStyle">@style/ActionBar.Light</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="AppTheme.Dark.V21" parent="AppTheme.Dark.Base">
+        <item name="android:actionBarStyle">@style/ActionBar.Dark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
     </style>
 
 </resources>
